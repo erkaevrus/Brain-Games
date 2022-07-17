@@ -27,4 +27,4 @@ def gcd(name):
 
 
 if __name__ == '__main__':
-    calc(name)
+    gcd(name)
