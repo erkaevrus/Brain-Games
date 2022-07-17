@@ -31,3 +31,6 @@ def progression(name):
         if flag == False:
             break
         i += 1
+
+if __name__ == '__main__':
+    progression(name)
