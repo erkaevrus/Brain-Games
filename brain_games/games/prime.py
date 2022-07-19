@@ -21,10 +21,10 @@ def prime(name):
         question = str(num)
         correct_answer = is_it_prime(num)
         flag = logic_games(name, question, correct_answer, i)
-        if flag == False:
+        if flag is False:
             break
         i += 1
 
 
 if __name__ == '__main__':
-    prime(name)
+    prime()

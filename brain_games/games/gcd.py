@@ -12,6 +12,7 @@ def finder_gcd(num1, num2):
             break
     return divisor
 
+
 def gcd(name):
     print('Find the greatest common divisor of given numbers.')
     i = 1
@@ -19,12 +20,12 @@ def gcd(name):
         num1 = random.randint(1, 100)
         num2 = random.randint(1, 100)
         question = f'{str(num1)} {str(num2)}'
-        correct_answer = str(finder_gcd(num1,num2))
+        correct_answer = str(finder_gcd(num1, num2))
         flag = logic_games(name, question, correct_answer, i)
-        if flag == False:
+        if flag is False:
             break
         i += 1
 
 
 if __name__ == '__main__':
-    gcd(name)
+    gcd()

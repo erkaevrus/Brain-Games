@@ -14,10 +14,10 @@ def calc(name):
         question = f'{str(num1)} {sign} {str(num2)}'
         correct_answer = str(expressions[operation.index(sign)])
         flag = logic_games(name, question, correct_answer, i)
-        if flag == False:
+        if flag is False:
             break
         i += 1
 
 
 if __name__ == '__main__':
-    calc(name)
+    calc()

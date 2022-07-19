@@ -13,10 +13,10 @@ def check_even(name):
         else:
             correct_answer = 'no'
         flag = logic_games(name, question, correct_answer, i)
-        if flag == False:
+        if flag is False:
             break
         i += 1
 
 
 if __name__ == '__main__':
-    check_even(name)
+    check_even()

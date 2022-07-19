@@ -7,7 +7,7 @@ def create_progression(num1, num2):
     step = num2
     progression = [start]
     for i in range(10):
-        progression.append(progression[i]+step)
+        progression.append(progression[i] + step)
     return progression
 
 
@@ -28,10 +28,10 @@ def progression(name):
         question = hidden_step_progression(num3, create_progression(num1, num2))
         correct_answer = str(create_progression(num1, num2)[num3])
         flag = logic_games(name, question, correct_answer, i)
-        if flag == False:
+        if flag is False:
             break
         i += 1
 
 
 if __name__ == '__main__':
-    progression(name)
+    progression()
