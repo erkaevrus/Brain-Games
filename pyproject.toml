@@ -8,6 +8,9 @@ license = "MIT"
 packages = [
 	{include = "brain_games"},
 ]
+classifiers = [
+    "Topic :: Education"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
