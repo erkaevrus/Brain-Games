@@ -6,9 +6,11 @@ def logic_games(name, question, correct_answer, i):
     if ans == correct_answer:
         print('Correct!')
     else:
-        print(f"'{ans}' is wrong answer ;(. Correct answer was '{correct_answer}'.\n"
+        print(
+        f"'{ans}' is wrong answer ;(."
+        f"Correct answer was '{correct_answer}'.\n"
         f"Let's try again, {name}!"
-        )
+            )
         return False
     if i == 3:
         print(f'Congratulations, {str(name)}!')
