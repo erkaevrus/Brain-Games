@@ -25,25 +25,20 @@ pip install --user dist/*.whl
 
 ### Brain Even
 
-[![asciicast](https://asciinema.org/a/EBabuqQNBXStge72UImgdB7AX.svg)]
-(https://asciinema.org/a/EBabuqQNBXStge72UImgdB7AX)
+[![asciicast](https://asciinema.org/a/EBabuqQNBXStge72UImgdB7AX.png)](https://asciinema.org/a/EBabuqQNBXStge72UImgdB7AX)
 
 ### Brain Calc
 
-[![asciicast](https://asciinema.org/a/ESeCaqq8zF8Qc8zvppbw1UZxN.svg)]
-(https://asciinema.org/a/ESeCaqq8zF8Qc8zvppbw1UZxN)
+[![asciicast](https://asciinema.org/a/ESeCaqq8zF8Qc8zvppbw1UZxN.png)](https://asciinema.org/a/ESeCaqq8zF8Qc8zvppbw1UZxN)
 
 ### Brain GCD
 
-[![asciicast](https://asciinema.org/a/vopW3T35qDRFguYQrg6f9khmq.svg)]
-(https://asciinema.org/a/vopW3T35qDRFguYQrg6f9khmq)
+[![asciicast](https://asciinema.org/a/vopW3T35qDRFguYQrg6f9khmq.png)](https://asciinema.org/a/vopW3T35qDRFguYQrg6f9khmq)
 
 ### Brain Progression
 
-[!asciicast](https://asciinema.org/a/NAhdBsfmRyFn85rZS20wB0DSH.svg)]
-(https://asciinema.org/a/NAhdBsfmRyFn85rZS20wB0DSH)
+[![asciicast](https://asciinema.org/a/NAhdBsfmRyFn85rZS20wB0DSH.png)](https://asciinema.org/a/NAhdBsfmRyFn85rZS20wB0DSH)
 
 ### Brain Prime
 
-[!asciicast](https://asciinema.org/a/YeTzusLyMLc9bzmZrFtTCDwXM.svg)]
-(https://asciinema.org/a/YeTzusLyMLc9bzmZrFtTCDwXM)
+[![asciicast](https://asciinema.org/a/YeTzusLyMLc9bzmZrFtTCDwXM.png)](https://asciinema.org/a/YeTzusLyMLc9bzmZrFtTCDwXM)
