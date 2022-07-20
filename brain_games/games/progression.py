@@ -25,7 +25,9 @@ def progression(name):
         num1 = random.randint(1, 50)
         num2 = random.randint(1, 10)
         num3 = random.randint(1, 10)
-        question = hidden_step_progression(num3, create_progression(num1, num2))
+        question = hidden_step_progression(
+            num3, create_progression(num1, num2)
+            )
         correct_answer = str(create_progression(num1, num2)[num3])
         flag = logic_games(name, question, correct_answer, i)
         if flag is False:
