@@ -25,7 +25,7 @@ def question():
     num3 = random.randint(1, 10)
     progression = create_progression(num1, num2)
     hidden_value = progression[num3]
-    question = hidden_step_progression(num3, progression)
+    question = f'Question: {hidden_step_progression(num3, progression)}'
     answer = str(hidden_value)
     return (question, answer)
 

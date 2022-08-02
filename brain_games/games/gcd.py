@@ -6,7 +6,7 @@ DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 def question():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
-    question = f'{str(num1)} {str(num2)}'
+    question = f'Question: {str(num1)} {str(num2)}'
     answer = correct_answer(num1, num2)
     return (question, answer)
 

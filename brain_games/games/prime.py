@@ -5,7 +5,7 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def question():
     num = random.randint(1, 100)
-    question = str(num)
+    question = f'Question: {str(num)}'
     answer = correct_answer(num)
     return (question, answer)
 
