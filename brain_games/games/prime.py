@@ -1,8 +1,16 @@
 import random
-from brain_games.logics.logics import logic_games
+
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_it_prime(num):
+def question():
+    num = random.randint(1, 100)
+    question = str(num)
+    answer = correct_answer(num)
+    return (question, answer)
+
+
+def correct_answer(num):
     count = 0
     for i in range(1, num + 1):
         if num % i == 0:
@@ -13,18 +21,5 @@ def is_it_prime(num):
         return 'no'
 
 
-def prime(name):
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    i = 1
-    while i < 4:
-        num = random.randint(1, 100)
-        question = str(num)
-        correct_answer = is_it_prime(num)
-        flag = logic_games(name, question, correct_answer, i)
-        if flag is False:
-            break
-        i += 1
-
-
 if __name__ == '__main__':
-    prime()
+    question()
