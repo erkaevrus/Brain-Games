@@ -7,8 +7,9 @@ def create_progression(num1, num2):
     start = num1
     step = num2
     progression = [start]
-    for i in range(10):
-        progression.append(progression[i] + step)
+    length_of_progression = 10
+    for _ in range(length_of_progression):
+        progression.append(progression[_] + step)
     return progression
 
 
@@ -19,7 +20,7 @@ def hidden_step_progression(num3, progression):
     return (progression_for_game)
 
 
-def question():
+def generate_question_answer():
     num1 = random.randint(1, 50)
     num2 = random.randint(1, 10)
     num3 = random.randint(1, 10)
@@ -28,7 +29,3 @@ def question():
     question = f'Question: {hidden_step_progression(num3, progression)}'
     answer = str(hidden_value)
     return (question, answer)
-
-
-if __name__ == '__main__':
-    question()

@@ -1,10 +1,10 @@
 #!/usr/bin/env/ python3
-from brain_games.games import check_even
-from brain_games.logics.logics import engine
+from brain_games.games import even
+from brain_games.engine import engine
 
 
 def main():
-    engine(check_even)
+    engine(even)
 
 
 if __name__ == '__main__':
